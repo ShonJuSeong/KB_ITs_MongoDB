@@ -10,7 +10,7 @@ This repository is a check list which is the fifth term practices and study in K
 # TASK
 | 항목 |  제목  | 디렉토리명 | 기본 | 심화 |
 |------|:----:|:----:|:----:|:----:|
-| 01 |- | 01_MongoDB | ☐|☐ |
+| 01 |MongoDB(기본)| 01_MongoDB | ✅|☐ |
 
 # Rough Note
 | 항목 |  제목  | 진행 |

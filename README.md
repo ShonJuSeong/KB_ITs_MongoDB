@@ -12,7 +12,7 @@ This repository is a check list which is the fifth term practices and study in K
 |------|:----:|:----:|:----:|:----:|
 | 01 |- | 01_MongoDB | ☐|☐ |
 
-# Summary
+# Rough Note
 | 항목 |  제목  | 진행 |
 |------|:----:|:----:|
 | 01 | 1. MongoDB란? | 🔄 |

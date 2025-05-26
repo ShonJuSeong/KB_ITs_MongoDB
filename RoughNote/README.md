@@ -73,3 +73,13 @@ RDB는 **Relational DataBase(관계형 데이터베이스)**의 줄임말
 - 읽기 성능 향상  
 - 백업 및 장애 복구에 유리  
 - 데이터는 똑같이 저장됨 (분산 아님)  
+
+
+## RDBMS / MongoDB
+
+![Image](https://github.com/user-attachments/assets/92e4c6a4-9ae7-46b4-bd82-ace76627e8bf)
+
+
+다큐먼트 / 필드 / 컬렉션 / db
+--> 점점 큰 의미 
+코드 한줄 / 

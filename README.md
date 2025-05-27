@@ -15,4 +15,5 @@ This repository is a check list which is the fifth term practices and study in K
 # Rough Note
 | 항목 |  제목  | 진행 |
 |------|:----:|:----:|
-| 01 | 1. MongoDB란? | 🔄 |
+| 01 | 1. MongoDB란? | ✅ |
+| 02 | 2. JAVA, MongoDB 연결 | 🔄 |

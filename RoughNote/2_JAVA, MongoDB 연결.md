@@ -1,4 +1,5 @@
 # 2_JAVA, MongoDB 연결
+## [JAVA](https://github.com/ShonJuSeong/KB_ITs_MySQL/tree/main/07_My_SQL)
 
 ![Image](https://github.com/user-attachments/assets/7841e262-6a8d-4d80-9eda-26ca8e7a86c4)
 
@@ -75,3 +76,78 @@ conn.close();
 | CRUD | Create, Read, Update, Delete | 데이터 다루는 네 가지 기본 기능          |
 | JDBC | Java Database Connectivity   | Java에서 DB에 연결하고 SQL 실행하는 도구 |
 
+
+
+#### 💾 가정 사항
+- MySQL에 jdbc_test라는 DB가 있고
+- 그 안에 users라는 테이블이 다음과 같이 생성되어 있음:
+
+```SQL
+  CREATE TABLE users (
+    id VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(50),
+    age INT
+);
+```
+
+#### 📦 JDBC CRUD 예제 코드
+```java
+import java.sql.*;
+
+public class JdbcCrudExample {
+
+    public static void main(String[] args) {
+        String url = "jdbc:mysql://localhost:3306/jdbc_test";
+        String user = "root";
+        String password = "1234";
+
+        try (
+            Connection conn = DriverManager.getConnection(url, user, password);
+            Statement stmt = conn.createStatement();
+        ) {
+            // Create
+            String insertSql = "INSERT INTO users (id, name, age) VALUES ('user1', '홍길동', 25)";
+            stmt.executeUpdate(insertSql);
+            System.out.println("CREATE 완료");
+
+            // Read
+            String selectSql = "SELECT * FROM users";
+            ResultSet rs = stmt.executeQuery(selectSql);
+            System.out.println("READ 결과:");
+            while (rs.next()) {
+                System.out.println("ID: " + rs.getString("id") +
+                                   ", 이름: " + rs.getString("name") +
+                                   ", 나이: " + rs.getInt("age"));
+            }
+            rs.close();
+
+            // Update
+            String updateSql = "UPDATE users SET age = 30 WHERE id = 'user1'";
+            stmt.executeUpdate(updateSql);
+            System.out.println("UPDATE 완료");
+
+            // Delete
+            String deleteSql = "DELETE FROM users WHERE id = 'user1'";
+            stmt.executeUpdate(deleteSql);
+            System.out.println("DELETE 완료");
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### ✅ 설명 요약
+| 부분                | 설명                         |
+| ----------------- | -------------------------- |
+| `Connection`      | DB에 연결을 생성                 |
+| `Statement`       | SQL 실행 도구                  |
+| `executeUpdate()` | INSERT, UPDATE, DELETE에 사용 |
+| `executeQuery()`  | SELECT에 사용                 |
+| `ResultSet`       | SELECT 결과를 받을 때 사용         |
+
+### 🔐 추가 주의 사항
+- 반드시 MySQL JDBC Driver를 pom.xml 또는 Gradle에 추가해야함  
+- localhost, root, 1234, jdbc_test 등은 여러분의 환경에 맞게 변경해야함  
+- 실제 프로젝트에서는 Statement 대신 PreparedStatement를 사용하는 것이 보안상 좋음  

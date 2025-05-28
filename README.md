@@ -24,3 +24,5 @@ This repository is a check list which is the fifth term practices and study in K
 |------|:----:|:----:|
 | 01 | 1. MongoDB란? | ✅ |
 | 02 | 2. JAVA, MongoDB 연결 | 🔄 |
+| 03 | 3. 서블릿이란? | ✅ |
+

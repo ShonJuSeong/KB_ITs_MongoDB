@@ -30,6 +30,6 @@ This repository is a check list which is the fifth term practices and study in K
 |------|:----:|:----:|
 | 01 | 1. Mongo_DB 정 | ✅ |
 | 02 | 2. JAVA, MongoDB 연결 | 🔄 |
-| 03 | 3. 서블릿 정의 | 🔄 |
+| 03 | 3. JSP / 서블릿 정의 | 🔄 |
 | 04 | 4. 웹 어플리케이션| 🔄 |
 

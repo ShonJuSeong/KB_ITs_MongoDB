@@ -12,6 +12,8 @@ This repository is a check list which is the fifth term practices and study in K
 | 항목 |  제목  | 디렉토리명 | 기본 | 심화 |
 |------|:----:|:----:|:----:|:----:|
 | 01 |MongoDB(기본)| 01_MongoDB | ✅|☐ |
+| 02 |02 몽고DB Java연동| 02_MongoDB | ☐|☐ |
+
 
 
 ## 2. Servlet & JSP Task
@@ -19,6 +21,8 @@ This repository is a check list which is the fifth term practices and study in K
 |------|:----:|:----:|:----:|:----:|
 | 01 |서블릿 기초| 01_JSP | ☐|☐ |
 | 02 |JSP의 이해| 02_JSP | ☐|☐ |
+| 03 |서블릿 심화| 03_JSP | ☐|☐ |
+
 
 
 # Rough Note

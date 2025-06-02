@@ -12,7 +12,7 @@ This repository is a check list which is the fifth term practices and study in K
 | 항목 |  제목  | 디렉토리명 | 기본 | 심화 |
 |------|:----:|:----:|:----:|:----:|
 | 01 |MongoDB(기본)| 01_MongoDB | ✅|☐ |
-| 02 |02 몽고DB Java연동| 02_MongoDB | ☐|☐ |
+| 02 |몽고DB Java연동| 02_MongoDB | ☐|☐ |
 
 
 

@@ -39,4 +39,6 @@ This repository is a check list which is the fifth term practices and study in K
 | 02 | 2. JAVA, MongoDB 연결 | 🔄 |
 | 03 | 3. JSP / 서블릿 정의 | 🔄 |
 | 04 | 4. 웹 어플리케이션| 🔄 |
+| 05 | 5. 스프링 프레임워크 기초| 🔄 |
+
 

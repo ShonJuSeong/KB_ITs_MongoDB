@@ -26,10 +26,10 @@ This repository is a check list which is the fifth term practices and study in K
 | 05 |FrontController| 05_JSP | ✅|🔄 |
 
 
-## 3. KB_ITs_Spring
+## 3. Spring
 | 항목 |  제목  | 디렉토리명 | 기본 | 심화 |
 |------|:----:|:----:|:----:|:----:|
-| 01 | Spring 이해 | 01_Spring | ☐|☐ |
+| 01 | Spring 이해 | 01_Spring | ✅|🔄 
 
 
 # Rough Note

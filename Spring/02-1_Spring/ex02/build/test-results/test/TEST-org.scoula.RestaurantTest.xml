@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.scoula.RestaurantTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-10T06:23:24" hostname="BOOK-POJNNP9T8B" time="0.038">
+  <properties/>
+  <testcase name="getChef()" classname="org.scoula.RestaurantTest" time="0.038"/>
+  <system-out><![CDATA[ INFO  org.springframework.test.context.support.DefaultTestContextBootstrapper(getDefaultTestExecutionListenerClassNames:245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+ INFO  org.springframework.test.context.support.DefaultTestContextBootstrapper(getTestExecutionListeners:174) - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6826c41e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3003697, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@64d43929, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1d269ed7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@437ebf59, org.springframework.test.context.event.EventPublishingTestExecutionListener@41c89d2f]
+ INFO  org.scoula.RestaurantTest(getChef:24) - Restaurant(chef=org.scoula.Chef@28348c6)
+ INFO  org.scoula.RestaurantTest(getChef:25) - --------------
+ INFO  org.scoula.RestaurantTest(getChef:26) - org.scoula.Chef@28348c6
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

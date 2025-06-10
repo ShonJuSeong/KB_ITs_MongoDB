@@ -29,7 +29,8 @@ This repository is a check list which is the fifth term practices and study in K
 ## 3. Spring
 | 항목 |  제목  | 디렉토리명 | 기본 | 심화 |
 |------|:----:|:----:|:----:|:----:|
-| 01 | Spring 이해 | 01_Spring | ✅|🔄 
+| 01 | Spring 이해 | 01_Spring | ✅|🔄 |
+| 02 | Spring 이해2 | 02-1_Spring | ✅|✅ |
 
 
 # Rough Note

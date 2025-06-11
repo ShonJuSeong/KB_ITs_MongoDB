@@ -31,6 +31,8 @@ This repository is a check list which is the fifth term practices and study in K
 |------|:----:|:----:|:----:|:----:|
 | 01 | Spring 이해 | 01_Spring | ✅|🔄 |
 | 02 | Spring 이해2 | 02-1_Spring | ✅|✅ |
+| 02 | Spring MVC | 02-2_Spring | ✅|☐|
+
 
 
 # Rough Note

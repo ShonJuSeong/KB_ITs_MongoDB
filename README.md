@@ -19,7 +19,7 @@ This repository is a check list which is the fifth term practices and study in K
 ## 2. Servlet & JSP Task
 | 항목 |  제목  | 디렉토리명 | 기본 | 심화 |
 |------|:----:|:----:|:----:|:----:|
-| 01 |서블릿 기초| 01_JSP | ☐|☐ |
+| 01 |서블릿 기초| 01_JSP | ✅|✅ |
 | 02 |JSP의 이해| 02_JSP | ☐|☐ |
 | 03 |서블릿 심화| 03_JSP | ☐|☐ |
 | 04 |요청, 포워딩, EL, JSTL| 04_JSP | ✅|☐ |

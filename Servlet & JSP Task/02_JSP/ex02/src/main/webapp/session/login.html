@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> 로그인 정보세션 저장</h1>
+<%
+String request.getParameter("userid");
+if(id ==null) {
+response.sendRedirect("loginForm.html");
+session.setAttribute("userid", id);
+session.setAttribute("password", pw);
+out.print("안녕하세요." + id +"<br>");
+out.print("<a href='loginInfo.jsp'>정보보기</a>
+}
+%>
+</body>
+</html>

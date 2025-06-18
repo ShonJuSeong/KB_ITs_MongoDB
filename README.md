@@ -10,7 +10,7 @@ This repository is a check list which is the fifth term practices and study in K
 ## 1. KB_ITs_MongoDB Task
   
 | 항목 |  제목  | 디렉토리명 | 기본 | 심화 |
-|------|:----:|:----:|:----:|:----:|
+|:----:|:----:|:----:|:----:|:----:|
 | 01 |MongoDB(기본)| 01_MongoDB | ✅|🔄 |
 | 02 |몽고DB Java연동| 02_MongoDB | ☐|☐ |
 
@@ -18,7 +18,7 @@ This repository is a check list which is the fifth term practices and study in K
 
 ## 2. Servlet & JSP Task
 | 항목 |  제목  | 디렉토리명 | 기본 | 심화 |
-|------|:----:|:----:|:----:|:----:|
+|:----:|:----:|:----:|:----:|:----:|
 | 01 |서블릿 기초| 01_JSP | ✅|✅ |
 | 02 |JSP의 이해| 02_JSP | ✅|✅ |
 | 03 |서블릿 심화| 03_JSP | ☐|☐ |
@@ -28,7 +28,7 @@ This repository is a check list which is the fifth term practices and study in K
 
 ## 3. Spring
 | 항목 |  제목  | 디렉토리명 | 기본 | 심화 |
-|------|:----:|:----:|:----:|:----:|
+|:----:|:----:|:----:|:----:|:----:|
 | 01 | Spring 이해 | 01_Spring | ✅|🔄 |
 | 02 | Spring 이해2 | 02-1_Spring | ✅|✅ |
 | 02 | Spring MVC | 02-2_Spring | ✅|☐|
@@ -40,7 +40,7 @@ This repository is a check list which is the fifth term practices and study in K
 
 # Rough Note
 | 항목 |  제목  | 진행 |
-|------|:----:|:----:|
+|:----:|:----:|:----:|
 | 01 | 1. Mongo_DB 정 | ✅ |
 | 02 | 2. JAVA, MongoDB 연결 | 🔄 |
 | 03 | 3. JSP / 서블릿 정의 | 🔄 |

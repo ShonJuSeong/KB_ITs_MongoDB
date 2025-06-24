@@ -37,7 +37,7 @@ This repository is a check list which is the fifth term practices and study in K
 | 05 |Spring 기본 게시판, 파일 업로드 | 05_Spring | ✅|✅|
 | 06 |Spring Rest OpenAPI | 06_Spring | ✅|✅|
 | 08 |Spring AOP Stomp | 08_Spring | ✅|✅|
-| 09 |Spring Security Form 인증 / 기반 로그인 | 09_Spring | ☐|☐|
+| 09 |Spring Security Form 인증 / 기반 로그인 | 09_Spring | 🔄|🔄|
 | 10 |Spring Security JWT 인증 | 10_Spring | ☐|☐|
 
 

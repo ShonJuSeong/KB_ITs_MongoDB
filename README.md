@@ -21,7 +21,7 @@ This repository is a check list which is the fifth term practices and study in K
 |:----:|:----:|:----:|:----:|:----:|
 | 01 |서블릿 기초| 01_JSP | ✅|✅ |
 | 02 |JSP의 이해| 02_JSP | ✅|✅ |
-| 03 |서블릿 심화| 03_JSP | ☐|☐ |
+| 03 |서블릿 심화| 03_JSP | ✅|☐ |
 | 04 |요청, 포워딩, EL, JSTL| 04_JSP | ✅|☐ |
 | 05 |FrontController| 05_JSP | ✅|🔄 |
 

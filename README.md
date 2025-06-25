@@ -39,7 +39,7 @@ This repository is a check list which is the fifth term practices and study in K
 | 08 |Spring AOP Stomp | 08_Spring | ✅|✅|
 | 09 |Spring Security Form 인증 / 기반 로그인 | 09_Spring | 🔄|🔄|
 | 10 |Spring Security JWT 인증 | 10_Spring | ☐|☐|
-| 11 |11 Spring Security JWT 인증2 | 11_Spring | ✅|☐|
+| 11 |Spring Security JWT 인증2 | 11_Spring | ✅|☐|
 
 
 
